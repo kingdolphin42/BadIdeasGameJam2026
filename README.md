@@ -2,4 +2,4 @@
 Our game for the bad ideas game jam
 
 ## ideas
--test
+- test
