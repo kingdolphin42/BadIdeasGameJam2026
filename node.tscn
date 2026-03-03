@@ -5,7 +5,7 @@
 [ext_resource type="ArrayMesh" uid="uid://b7sssajou2ri5" path="res://assets/Desk.obj" id="3_e2u21"]
 [ext_resource type="PackedScene" uid="uid://bot285402psqa" path="res://Cubicle.tscn" id="3_tda05"]
 [ext_resource type="ArrayMesh" uid="uid://dd1j1r3yjydu0" path="res://assets/chair.obj" id="4_bss38"]
-[ext_resource type="PackedScene" uid="uid://cy28jp85ki37k" path="res://Chair.tscn" id="5_bss38"]
+[ext_resource type="PackedScene" path="res://Chair.tscn" id="5_bss38"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_112p8"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
