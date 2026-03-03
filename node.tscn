@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bi1n0s3i7tw7p" path="res://proto_controller.tscn" id="1_j2q8x"]
 [ext_resource type="Script" uid="uid://cx0xg06w5mt2i" path="res://proto_controller.gd" id="2_j2q8x"]
 [ext_resource type="ArrayMesh" uid="uid://b7sssajou2ri5" path="res://assets/Desk.obj" id="3_e2u21"]
+[ext_resource type="PackedScene" uid="uid://bot285402psqa" path="res://Cubicle.tscn" id="3_tda05"]
 [ext_resource type="ArrayMesh" uid="uid://dd1j1r3yjydu0" path="res://assets/chair.obj" id="4_bss38"]
 [ext_resource type="PackedScene" uid="uid://cy28jp85ki37k" path="res://Chair.tscn" id="5_bss38"]
 
@@ -42,6 +43,9 @@ transform = Transform3D(1, 0, 0, 0, 7.7468, 0, 0, 0, 11.957482, 5.271431, 3.4658
 transform = Transform3D(37.17037, 0, 0, 0, 1, 0, 0, 0, 26.082937, 0, 0, 0)
 use_collision = true
 
+[node name="StaticBody3D" parent="CSGCombiner3D" unique_id=1010796315 instance=ExtResource("3_tda05")]
+transform = Transform3D(1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 14, 0, -9)
+
 [node name="Desk" type="MeshInstance3D" parent="." unique_id=1335171721]
 transform = Transform3D(-0.75, 6.556708e-08, 0, 2.8660283e-15, 3.278354e-08, 0.75, 6.556708e-08, 0.75, -3.278354e-08, 11.532, 2.37, 11.121)
 mesh = ExtResource("3_e2u21")
@@ -51,4 +55,4 @@ transform = Transform3D(0.7388318, 0, 0.6738899, 0, 1, 0, -0.6738899, 0, 0.73883
 mesh = ExtResource("4_bss38")
 
 [node name="RigidBody3D" parent="." unique_id=2145583118 instance=ExtResource("5_bss38")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.115667, 0.46314192, 7.006499)
+transform = Transform3D(-0.44512734, 0, -0.60362375, 0, 0.75, 0, 0.60362375, 0, -0.44512734, 12.230561, 0.46314192, -7.605211)
