@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://dqk2i3ghbv4wc"]
 
 [ext_resource type="PackedScene" uid="uid://bi1n0s3i7tw7p" path="res://proto_controller.tscn" id="1_j2q8x"]
-[ext_resource type="Script" uid="uid://cx0xg06w5mt2i" path="res://proto_controller.gd" id="2_j2q8x"]
+[ext_resource type="Script" uid="uid://dblywnjygma84" path="res://Playermove.gd" id="2_tda05"]
 [ext_resource type="ArrayMesh" uid="uid://b7sssajou2ri5" path="res://assets/Desk.obj" id="3_e2u21"]
-[ext_resource type="PackedScene" uid="uid://bot285402psqa" path="res://Cubicle.tscn" id="3_tda05"]
+[ext_resource type="PackedScene" path="res://Cubicle.tscn" id="3_tda05"]
 [ext_resource type="ArrayMesh" uid="uid://dd1j1r3yjydu0" path="res://assets/chair.obj" id="4_bss38"]
-[ext_resource type="PackedScene" path="res://Chair.tscn" id="5_bss38"]
+[ext_resource type="PackedScene" uid="uid://cy28jp85ki37k" path="res://Chair.tscn" id="5_bss38"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_112p8"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -23,8 +23,8 @@ glow_enabled = true
 [node name="Node" type="Node" unique_id=979387307]
 
 [node name="ProtoController" parent="." unique_id=1154299138 instance=ExtResource("1_j2q8x")]
-transform = Transform3D(37.17037, 0, 0, 0, 1, 0, 0, 0, 26.082937, 0, 0, 0)
-script = ExtResource("2_j2q8x")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.61980224, 0)
+script = ExtResource("2_tda05")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1658595193]
 environment = SubResource("Environment_bss38")

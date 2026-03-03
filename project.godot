@@ -15,10 +15,6 @@ run/main_scene="uid://dqk2i3ghbv4wc"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
-[editor_plugins]
-
-enabled=PackedStringArray()
-
 [input]
 
 Left={
